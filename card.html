@@ -36,6 +36,17 @@
        <span class="btn btn-alert"><t4 type="content" name="Link 3" output="normal" modifiers="nav_sections" /></span>
     </div>
 
+    <div id="card4" class="card col-md-3">
+  <div id="cardImage4" class="cardImage">
+    <img src="<t4 type='content' name='Image 4' output='imageurl' />" alt="Image that complements <t4 type='content' name='Heading 4' output='normal' modifiers='striptags,htmlentities' />" class="myImageOFFURY" />
+  </div>
+  <t4 type="content" name="Heading 4" output="selective-output" modifiers="striptags,htmlentities" format='<h3 id="cardHeader4" class="cardHeader">$value</h3>' />
+  <t4 type="content" name="Text 4" output="selective-output" modifiers="medialibrary,nav_sections" process-format="true" format="<div id='cardText4' class=&quot;cardText&quot;>
+$value
+</div>" />
+   <span class="btn btn-alert"><t4 type="content" name="Link 4" output="normal" modifiers="nav_sections" /></span>
+</div>
+
 
   </div>
 </div>
