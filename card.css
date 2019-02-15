@@ -1,14 +1,14 @@
-.container .cardsWrapper {
-  display: inline-flex;
+.cardsWrapper {
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: stretch;
   align-content: stretch;
 }
-.items .cardsWrapper {
+.card {
   order: 1;
-  flex: none;
+  flex: auto;
   align-self: auto;
 }
 
