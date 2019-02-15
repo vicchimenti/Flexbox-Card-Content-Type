@@ -1,11 +1,12 @@
-.cardsWrapper .container {
+.container .cardsWrapper {
   display: inline-flex;
-  flex-flow: row || nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
 }
-.cardsWrapper .items {
+.items .cardsWrapper {
   order: 1;
   flex: none;
   align-self: auto;
