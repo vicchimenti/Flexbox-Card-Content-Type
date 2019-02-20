@@ -1,3 +1,6 @@
+.cardsWrapper .cardImage img {
+    padding: 15px 0;
+}
 .cardsWrapper {
   display: flex;
   flex-direction: row;
@@ -6,25 +9,20 @@
   align-items: stretch;
   align-content: stretch;
 }
+.cards {
+  display: flex;
+}
 .card {
   order: 1;
   flex: auto;
   align-self: auto;
 }
+.cardLink {
+  position: absolute;
+  bottom 3rem;
+  display: block;
+  padding: 1rem;
+}
 .cardsWrapper .cardImage img {
     padding: 15px 0;
 }
-
-
-/*
-.footerfix(height:4rem;}
-footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  background-color: #AA0000;
-}
-*/
