@@ -10,7 +10,8 @@
     padding: 15px 0;
 }
 .cards {
-  display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 .card a {
   order: 1;
@@ -23,21 +24,28 @@
   display: block;
   padding: 1rem;
 }
+.card {
+    align-items: stretch;
+    flex-basis: 25%;
+    padding: 15px;
+    position: relative;
+}
 .btn-boxlink a {
-  align-items: center;
-  border: 1px solid #088099;
-  bottom 3rem;
-  color: #aa0000;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 500;
-  height: 100%;
-  justify-content: center;
-  line-height: 1.6rem;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all 0.2s ease;
+    align-items: center;
+    border: 1px solid #088099;
+    bottom: 3rem;
+    color: #aa0000;
+    /* display: flex; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* height: 100%; */
+    justify-content: center;
+    line-height: 1.6rem;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
 }
