@@ -4,18 +4,19 @@
 .card {
     align-items: stretch;
     flex-basis: 25%;
-    padding: 15px;
-    position: relative;
+    padding: 0 15px 0 15px;
 }
 .cards {
     display: flex;
     justify-content: space-between;
 }
 .cardButton a {
-  position: absolute;
-  bottom 3rem;
   display: block;
-  padding: 1rem;
+}
+.cardButton . btn {
+  padding: 0;
+  width: 100%
+  display: block;
 }
 .btn-boxlink a {
     align-items: center;
@@ -28,7 +29,6 @@
     justify-content: center;
     line-height: 1.6rem;
     padding: 15px;
-    position: absolute;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
