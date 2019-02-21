@@ -1,28 +1,5 @@
-.cardsWrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: stretch;
-}
 .cardsWrapper .cardImage img {
     padding: 15px 0;
-}
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
-.card a {
-  order: 1;
-  flex: auto;
-  align-self: auto;
-}
-.cardButton a {
-  position: absolute;
-  bottom 3rem;
-  display: block;
-  padding: 1rem;
 }
 .card {
     align-items: stretch;
@@ -30,16 +7,24 @@
     padding: 15px;
     position: relative;
 }
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.cardButton a {
+  position: absolute;
+  bottom 3rem;
+  display: block;
+  padding: 1rem;
+}
 .btn-boxlink a {
     align-items: center;
     border: 1px solid #088099;
     bottom: 3rem;
     color: #aa0000;
-    /* display: flex; */
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    /* height: 100%; */
     justify-content: center;
     line-height: 1.6rem;
     padding: 15px;
