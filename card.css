@@ -34,3 +34,9 @@
     text-transform: uppercase;
     transition: all 0.2s ease;
 }
+.btn-boxlink a:hover {
+  background: #088099;
+  border: 1px solid #088099;
+  color: #ffffff;
+  text-decoration: underline;
+}
