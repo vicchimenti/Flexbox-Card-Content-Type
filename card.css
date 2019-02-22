@@ -38,3 +38,8 @@
   color: #ffffff;
   text-decoration: underline;
 }
+@media screen and (max-width: 767.999px) { /* xs */
+    .cardsWrapper {
+      flex: none;
+    }
+}
