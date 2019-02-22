@@ -1,14 +1,14 @@
 .cardsWrapper .cardImage img {
     padding: 15px 0;
 }
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
 .card {
     align-items: stretch;
     flex: 1 1 0;
     padding: 0 15px 0 15px;
-}
-.cards {
-    display: flex;
-    justify-content: space-between;
 }
 .cardButton a {
   display: block;
@@ -39,7 +39,10 @@
   text-decoration: underline;
 }
 @media screen and (max-width: 767.999px) { /* xs */
-    .cardsWrapper {
-      flex: none;
-    }
+  .cards {
+    display: block;
+  }
+  .card .standardContent {
+    padding: 0 15px;
+  }
 }
