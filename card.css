@@ -1,13 +1,40 @@
 .cardsWrapper .cardImage img {
     padding: 15px 0;
 }
-.footerfix(height:4rem;}
-footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  background-color: #AA0000;
+.card {
+    align-items: stretch;
+    flex: 1 1 0;
+    padding: 0 15px 0 15px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.cardButton a {
+  display: block;
+}
+.cardButton .btn-boxlink {
+    width: 100%
+}
+.btn-boxlink a {
+    align-items: center;
+    border: 1px solid #088099;
+    bottom: 3rem;
+    color: #aa0000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.6rem;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+.btn-boxlink a:hover {
+  background: #088099;
+  border: 1px solid #088099;
+  color: #ffffff;
+  text-decoration: underline;
 }
