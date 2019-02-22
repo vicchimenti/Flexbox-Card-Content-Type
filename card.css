@@ -13,7 +13,7 @@
 .cardButton a {
   display: block;
 }
-.btn {
+.cardButton .btn {
     width: 100%
 }
 .btn-boxlink a {
