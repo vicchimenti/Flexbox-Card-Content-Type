@@ -13,10 +13,8 @@
 .cardButton a {
   display: block;
 }
-.cardButton . btn {
-  padding: 0;
-  width: 100%
-  display: block;
+.btn {
+    width: 100%
 }
 .btn-boxlink a {
     align-items: center;
