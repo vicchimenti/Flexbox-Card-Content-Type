@@ -45,4 +45,8 @@
   .card .standardContent {
     padding: 0 15px;
   }
+  .cardButton .btn-boxlink {
+    display: block;
+    margin: 7px 0;
+ }
 }
