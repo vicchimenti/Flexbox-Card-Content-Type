@@ -1,8 +1,14 @@
+.cardsWrapper {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+}
 .cardsWrapper .cardImage img {
     padding: 15px 0;
 }
 .cards {
     display: flex;
+    flex: 1 1 0;
     justify-content: space-between;
 }
 .card {
