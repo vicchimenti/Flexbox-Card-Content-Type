@@ -1,20 +1,20 @@
 .cardsWrapper .cardImage img {
     padding: 15px 0;
 }
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
 .card {
     align-items: stretch;
     flex: 1 1 0;
     padding: 0 15px 0 15px;
 }
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
 .cardButton a {
-  display: block;
+    display: block;
 }
 .cardButton .btn-boxlink {
-    width: 100%
+    width: 100%;
 }
 .btn-boxlink a {
     align-items: center;
@@ -33,8 +33,32 @@
     transition: all 0.2s ease;
 }
 .btn-boxlink a:hover {
-  background: #088099;
-  border: 1px solid #088099;
-  color: #ffffff;
-  text-decoration: underline;
+    background: #088099;
+    border: 1px solid #088099;
+    color: #ffffff;
+    text-decoration: underline;
+}
+@media screen and (max-width: 767.999px) { /* xs */
+    .cards {
+        display: block;
+    }
+    .card .standardContent {
+    padding: 0 15px;
+    }
+    .cardButton .btn-boxlink {
+    width: 100%;
+    padding: 0;
+    }
+}
+@media screen and (max-width: 991.999px) { /* xs + sm */
+    .cards {
+      display: block;
+    }
+    .card .standardContent {
+      padding: 0 15px;
+    }
+    .cardButton .btn-boxlink {
+      width: 100%;
+      padding: 0;
+    }
 }
