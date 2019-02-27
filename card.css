@@ -50,11 +50,11 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.999px) { /* sm */
-    #zoneA .col-sm-12 .cardsWrapper .card .cardButton {
-        flex-basis: calc(50% - 7px);
+    #zoneA.col-sm-12 .cards {
+        flex-wrap: wrap;
     }
-    .card .standardContent {
-        padding: 0 15px;
+    #zoneA.col-sm-12 .card {
+        flex-basis: calc(50% - 7px);
     }
     .cardButton .btn-boxlink {
         padding: 0;
