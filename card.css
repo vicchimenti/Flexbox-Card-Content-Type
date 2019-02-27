@@ -11,7 +11,7 @@
     padding: 0 15px 0 15px;
 }
 .cardButton a {
-  display: block;
+    display: block;
 }
 .cardButton .btn-boxlink {
     width: 100%;
@@ -33,20 +33,32 @@
     transition: all 0.2s ease;
 }
 .btn-boxlink a:hover {
-  background: #088099;
-  border: 1px solid #088099;
-  color: #ffffff;
-  text-decoration: underline;
+    background: #088099;
+    border: 1px solid #088099;
+    color: #ffffff;
+    text-decoration: underline;
 }
 @media screen and (max-width: 767.999px) { /* xs */
-  .cards {
-    display: block;
-  }
-  .card .standardContent {
+    .cards {
+        display: block;
+    }
+    .card .standardContent {
     padding: 0 15px;
-  }
-  .cardButton .btn-boxlink {
+    }
+    .cardButton .btn-boxlink {
     width: 100%;
     padding: 0;
-  }
+    }
+}
+@media screen and (max-width: 991.999px) { /* xs + sm */
+    .cards {
+      display: block;
+    }
+    .card .standardContent {
+      padding: 0 15px;
+    }
+    .cardButton .btn-boxlink {
+      width: 100%;
+      padding: 0;
+    }
 }
