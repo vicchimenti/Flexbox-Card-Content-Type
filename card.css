@@ -11,25 +11,22 @@
     flex: 1 1 0;
     justify-content: space-between;
 }
-.card .col-md-3 {
+.card {
     align-items: stretch;
     flex: 1 1 0;
     padding: 0 15px 0 15px;
 }
-.card .col-md-12 {
-    align-items: stretch;
-    flex: 1 1 100%;
-    padding: 0 15px 0 15px;
+.cardLayout1234 {
+    flex-basis: 25%;
 }
-.card .col-md-6 {
-    align-items: stretch;
-    flex: 1 1 50%;
-    padding: 0 15px 0 15px;
+.cardLayout123 {
+    flex-basis: 33%;
 }
-.card .col-md-4 {
-    align-items: stretch;
-    flex: 1 1 33%;
-    padding: 0 15px 0 15px;
+.cardLayout12 {
+    flex-basis: 50%;
+}
+.cardLayout1 {
+    flex-basis: 100%;
 }
 .cardButton a {
     display: block;
