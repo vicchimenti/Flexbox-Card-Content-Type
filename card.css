@@ -16,6 +16,21 @@
     flex: 1 1 0;
     padding: 0 15px 0 15px;
 }
+.card .col-md-12 {
+    align-items: stretch;
+    flex: 1 1 100%;
+    padding: 0 15px 0 15px;
+}
+.card .col-md-6 {
+    align-items: stretch;
+    flex: 1 1 50%;
+    padding: 0 15px 0 15px;
+}
+.card .col-md-4 {
+    align-items: stretch;
+    flex: 1 1 33%;
+    padding: 0 15px 0 15px;
+}
 .cardButton a {
     display: block;
 }
