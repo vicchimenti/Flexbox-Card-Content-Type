@@ -4,7 +4,7 @@
     <div class="cards standardContent cardLayout<t4 type='content' name='Heading 1' output='selective-output' modifiers='striptags,htmlentities' format='1' /><t4 type='content' name='Heading 2' output='selective-output' modifiers='striptags,htmlentities' format='2' /><t4 type='content' name='Heading 3' output='selective-output' modifiers='striptags,htmlentities' format='3' /><t4 type='content' name='Heading 4' output='selective-output' modifiers='striptags,htmlentities' format='4' />">
 
 
-        <div id="card1" class="card cardLayout1">
+        <div id="card1" class="card">
             <div id="cardImage1" class="cardImage">
                 <img src="<t4 type='content' name='Image 1' output='imageurl' />" alt="Image that complements <t4 type='content' name='Heading 1' output='normal' modifiers='striptags,htmlentities' />" class="myImageOFFURY" />
             </div>
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div id="card2" class="card cardLayout12">
+        <div id="card2" class="card">
             <div id="cardImage2" class="cardImage">
                 <img src="<t4 type='content' name='Image 2' output='imageurl' />" alt="Image that complements <t4 type='content' name='Heading 2' output='normal' modifiers='striptags,htmlentities' />" class="myImageOFFURY" />
             </div>
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div id="card3" class="card cardLayout123">
+        <div id="card3" class="card">
             <div id="cardImage3" class="cardImage">
                 <img src="<t4 type='content' name='Image 3' output='imageurl' />" alt="Image that complements <t4 type='content' name='Heading 3' output='normal' modifiers='striptags,htmlentities' />" class="myImageOFFURY" />
             </div>
@@ -40,17 +40,22 @@
             </div>
         </div>
 
-        <div id="card4" class="card cardLayout1234">
-            <div id="cardImage4" class="cardImage">
-                <img src="<t4 type='content' name='Image 4' output='imageurl' />" alt="Image that complements <t4 type='content' name='Heading 4' output='normal' modifiers='striptags,htmlentities' />" class="myImageOFFURY" />
-            </div>
-            <t4 type="content" name="Heading 4" output="selective-output" modifiers="striptags,htmlentities" format='<h3 id="cardHeader4" class="cardHeader">$value</h3>' />
-            <t4 type="content" name="Text 4" output="selective-output" modifiers="medialibrary,nav_sections" process-format="true" format="<div id='cardText4' class=&quot;cardText&quot;>$value</div>" />
-            <div id="cardButton4" class="cardButton">
-                <div id="btn4" class="btn btn-boxlink"><t4 type="content" name="Link 4" output="normal" modifiers="nav_sections" />
+
+        <t4 type="content" name="Heading 4" output="selective-output" modifiers="" process-format="true" format="
+
+            <div id='card4' class='card'>
+                <div id='cardImage4' class='cardImage'>
+					<img src='<t4 type=&quot;content&quot; name=&quot;Image 4&quot; output=&quot;imageurl&quot; />' alt='Image that complements $value' class='myImageOFFURY' />
+                </div>
+                <h3 id='cardHeader4' class='cardHeader'>$value</h3>
+                <t4 type='content' name='Text 4' output='selective-output' modifiers='medialibrary,nav_sections' process-format='true' format='<div id=&quot;cardText4&quot; class=&quot;cardText&quot;>$value</div>' />
+                <div id='cardButton4' class='cardButton'>
+                    <div id='btn4' class='btn btn-boxlink'><t4 type='content' name='Link 4' output='normal' modifiers='nav_sections' />
+                    </div>
                 </div>
             </div>
-        </div>
+        " />
+
 
 
 
