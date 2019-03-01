@@ -16,16 +16,16 @@
     flex: 1 1 0;
     padding: 0 15px 0 15px;
 }
-.cardLayout #cardLayout1234 {
+.card .cardLayout1234 {
     flex-basis: 25%;
 }
-.cardLayout #cardLayout123 {
+.card .cardLayout123 {
     flex-basis: 33%;
 }
-.cardLayout #cardLayout12 {
+.card .cardLayout12 {
     flex-basis: 50%;
 }
-.cardLayout #cardLayout1 {
+.card .cardLayout1 {
     flex-basis: 100%;
 }
 .cardButton a {
